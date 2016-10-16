@@ -97,7 +97,7 @@ displayed to the monitor. If the user presses any key, then the player
 is respawned and the game starts again. The block diagram and next state
 diagram of this circuit are presented in the sections below.
 
-**Schematic Block Diagrami**
+**Schematic Block Diagram**
 
 ![Alt text](/documentation/images/Picture2.png?raw=true "Optional Title")
 
@@ -256,7 +256,7 @@ More information on how the FramePtr is generated is provided in section
 10. The image in the section below gives a visual representation of this
 formula and how it is accessing the different memory locations.
 
-**Schematic Block Diagrami**
+**Schematic Block Diagram**
 
 ![Alt text](/documentation/images/Picture8.png?raw=true "Optional Title")
 
