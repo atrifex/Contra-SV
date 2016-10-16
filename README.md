@@ -97,11 +97,11 @@ displayed to the monitor. If the user presses any key, then the player
 is respawned and the game starts again. The block diagram and next state
 diagram of this circuit are presented in the sections below.
 
-1.  Schematic Block Diagram
+**Schematic Block Diagrami**
 
 ![Alt text](/documentation/images/Picture2.png?raw=true "Optional Title")
 
-2.  Next State Diagram
+**Next State Diagram**
 
 ![Alt text](/documentation/images/Picture3.png?raw=true "Optional Title")
 
@@ -194,11 +194,11 @@ has been seen and thus the number of frames that have been outputted at
 any given time. The sections below show the block diagram and next state
 diagrams for the frame counter module.
 
-1.  Schematic Block Diagram
+**Schematic Block Diagram**
 
 ![Alt text](/documentation/images/Picture6.png?raw=true "Optional Title")
 
-2.  Next State Diagram
+**Next State Diagram**
 
 ![Alt text](/documentation/images/Picture7.png?raw=true "Optional Title")
 
@@ -256,11 +256,11 @@ More information on how the FramePtr is generated is provided in section
 10. The image in the section below gives a visual representation of this
 formula and how it is accessing the different memory locations.
 
-1.  Schematic Block Diagram
+**Schematic Block Diagrami**
 
 ![Alt text](/documentation/images/Picture8.png?raw=true "Optional Title")
 
-2.  Visual Representation of SRAM Access Formula
+**Visual Representation of SRAM Access Formula**
 
 ![Alt text](/documentation/images/Picture9.png?raw=true "Optional Title")
 
@@ -472,7 +472,7 @@ understandable.
 
 ![Alt text](/documentation/images/Picture15.png?raw=true "Optional Title")
 
-1.  11-Bit Register Module
+**11-Bit Register Module**
 
 The 11-Bit Register module was used as a submodule within the PS/2
 keyboard driver module. It served the purpose of temporarily storing the
@@ -487,7 +487,7 @@ diagram of the 11-Bit register module.
 
 ![Alt text](/documentation/images/Picture16.png?raw=true "Optional Title")
 
-2.  D-Register Module
+**D-Register Module**
 
 The D-Register module was also used as a submodule within the PS/2
 keyboard driver module. It server the purpose of detecting the edges of
@@ -584,7 +584,7 @@ below shows the schematic block diagram of this top level player module.
 
 ![Alt text](/documentation/images/Picture20.png?raw=true "Optional Title")
 
-1.  Player Movement
+**Player Movement**
 
 The Player Movement Module is the core of the entire Player. It chooses
 how the player will react to the platforms, how the player will react to
@@ -642,7 +642,7 @@ complexity of this module.
 
 ![Alt text](/documentation/images/Picture21.png?raw=true "Optional Title")
 
-2.  Player Animations
+**Player Animations**
 
 The Player Animations were all repetitions of each other. We created
 this module to be generalized and expanded to each of the possible
@@ -695,14 +695,14 @@ images in the next two sections show the schematic block diagram of the
 running animation and running next state diagram. These are good
 examples of how the rest of the animations were designed.
 
-3.  Running Animation Schematic Block Diagram
+**Running Animation Schematic Block Diagram**
 
 Due to its complexity, this block diagram is fairly difficult to
 understand. It is described in the section above.
 
 ![Alt text](/documentation/images/Picture22.png?raw=true "Optional Title")
 
-4.  Running Animation Next State Diagram
+**Running Animation Next State Diagram**
 
 The image below shows the next state diagram for the running animation.
 Each state corresponds to seeing a different sprite. More details on how
@@ -710,7 +710,7 @@ this works are provided in section 18.2.
 
 ![Alt text](/documentation/images/Picture23.png?raw=true "Optional Title")
 
-5.  Animation Mux
+**Animation Mux**
 
 The Animation Mux module is the module that selects the sprite
 pertaining to the animation of the Player. It takes in the addresses,
@@ -730,7 +730,7 @@ of this module.
 
 ![Alt text](/documentation/images/Picture24.png?raw=true "Optional Title")
 
-6.  Player ROM
+**Player ROM**
 
 The Player ROM was implemented through the use of on-chip memory. The
 inputs into this module were Clk, data\_In, read\_address,
@@ -767,7 +767,7 @@ the bullet top level module.
 
 ![Alt text](/documentation/images/Picture26.png?raw=true "Optional Title")
 
-1.  Bullet Module
+**Bullet Module**
 
 The bullet module described and controlled all of the characteristics of
 each of the bullets. Through the hardware described in this module, we
