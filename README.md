@@ -73,7 +73,7 @@ and outputs allowed our design to communicate with external hardware
 and thus visual and play an entire level on contra. The image below
 shows the schematic block diagram of the project’s top level module.
 
-![Alt text](/documentation/images/Picture1.PNG?raw=true "Optional Title")
+![Alt text](/documentation/images/Picture1.png?raw=true "Optional Title")
 
 Game Controller Module
 ======================
