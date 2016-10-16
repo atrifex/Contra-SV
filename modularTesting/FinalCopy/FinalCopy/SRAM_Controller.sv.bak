@@ -1,0 +1,12 @@
+
+module  SRAM_Controller 
+( 
+				
+
+			output	CE, UB, LB, OE, WE		// control the SDRAM
+);
+ 
+assign CE = 1'b0;
+
+ 
+endmodule

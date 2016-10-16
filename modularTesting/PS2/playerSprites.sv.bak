@@ -1,0 +1,43 @@
+
+module  Sprites 
+( 
+					input Clk, Reset,
+					input[9:0] DrawX, DrawY, PlayerX, PlayerY,
+					input [3:0] KEY,
+					
+					output[4:0] pixelData	// this is the pixel data that we output ----> encoded bits
+);
+    
+logic [4:0] SpriteRom [0:1079]; 			// test sprite ROM
+		// width 5 bits, 1080 address spaces, 3 such banks to store the there different sprites.
+		
+logic[31:0] spriteAddress;
+
+logic [9:0] newDrawX, newDrawY;
+
+assign newDrawX = DrawX % 6'd24;
+assign newDrawY = DrawY % 6'd45;
+
+assign spriteAddress = newDrawX + newDrawY*24;
+
+
+
+initial
+begin
+	 $readmemh("SpriteText/Right.txt", SpriteRom);
+end
+
+	
+always_ff @ (posedge Clk)	
+begin
+		if(DrawX - PlayerX < 24 && DrawY - PlayerY < 45)
+			pixelData <= SpriteRom[spriteAddress];
+		else
+			pixelData <= 5'h15;
+end
+	
+	
+	
+	
+	
+endmodule

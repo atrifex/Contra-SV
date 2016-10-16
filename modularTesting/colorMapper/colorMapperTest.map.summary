@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Apr 22 16:12:47 2016
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : colorMapperTest
+Top-level Entity Name : topLevel
+Family : Cyclone IV E
+Total logic elements : 126
+    Total combinational functions : 126
+    Dedicated logic registers : 44
+Total registers : 44
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

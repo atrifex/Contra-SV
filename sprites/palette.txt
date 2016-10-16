@@ -1,0 +1,32 @@
+LEGEND:
+-------
+0 - 5: colors for hero
+6 - 12: colors for enemies
+13 - 20: colors for background
+21: color for transparency
+
+0  = 0x000000
+1  = 0xF83800
+2  = 0xF0D0B0
+3  = 0x503000
+4  = 0xFFE0A8
+5  = 0x0058F8
+6  = 0xFCFCFC
+7  = 0xBCBCBC
+8  = 0xA40000
+9  = 0xD82800
+10 = 0xFC7460
+11 = 0xFCBCB0
+12 = 0xF0BC3C
+13 = 0xAEACAE
+14 = 0x363301
+15 = 0x6C6C01
+16 = 0xBBBD00
+17 = 0x88D500
+18 = 0x398802
+19 = 0x65B0FF
+20 = 0x155ED8
+21 = 0x800080 -----> Transparent
+22 = 0x24188A
+23 = 0xFFFF00 -----> platform color grass
+24 = 0x00FFFF -----> platform color bridge

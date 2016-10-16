@@ -1,0 +1,28 @@
+TODO:
+4/23/2016
+
+Roshan:
+- First line of pixel shifted 					- COMPLETED
+- get transparency pixel to be transparent 			- COMPLETED
+- create simple animation engine
+- Flash memory for sprites
+
+
+
+Rishi:
+- create single frame buffer 
+- get start screen to show					- COMPLETED
+- get start screen to animate					- COMPLETED
+
+
+
+
+
+GENERAL:
+- GAME ENGINE
+	-> Pixel Logic/Picker
+	-> Player - movement and behavior
+	-> Enemies - ""
+	-> Turrets - ""
+- Mapping/Indexing of the sprites and background
+- Additional Features?

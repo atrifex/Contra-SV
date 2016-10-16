@@ -1,0 +1,334 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/simulation/modelsim
+vColor_Mapper5Bit
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1461902905
+!i10b 1
+!s100 8[BD7?nmUZDbCY:I78M:l1
+I_=2el1C<X5Gj0eghE_f<20
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 Color_Mapper5Bit_sv_unit
+S1
+R0
+Z4 w1461533825
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv
+L0 4
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1461902905.071000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites}
+n@color_@mapper5@bit
+vfinalProjectTopLevel
+R1
+R2
+!i10b 1
+!s100 4?DIdihPgR6<M?n@708PA2
+I3A9nbD76_ag5[EglLd=?d1
+R3
+!s105 finalProjectTopLevel_sv_unit
+S1
+R0
+w1461902490
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461902905.774000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv|
+!i113 1
+R6
+R7
+nfinal@project@top@level
+vFrameBuffer
+R1
+R2
+!i10b 1
+!s100 >UDFji1E<:OlKLS_?]VRe0
+IKj9Y6AIFkcL8L9;]HW?G93
+R3
+!s105 FrameBuffer_sv_unit
+S1
+R0
+w1461880946
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461902905.201000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv|
+!i113 1
+R6
+R7
+n@frame@buffer
+vFrameCounter
+R1
+Z8 !s110 1461902904
+!i10b 1
+!s100 3EV@>7mB8Za7dUB7AOIid1
+I;lE7IS7@XkhLZ@?Z3OVWX3
+R3
+!s105 FrameCounter_sv_unit
+S1
+R0
+w1461715704
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461902904.932000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv|
+!i113 1
+R6
+R7
+n@frame@counter
+vframeRAM
+R1
+Z9 !s110 1461902906
+!i10b 1
+!s100 g4o_jfKi6TdS_VY`]4Aa91
+Io1?`MGTgnIV38e<IP6::d2
+R3
+!s105 frameRAM_sv_unit
+S1
+R0
+w1461807344
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461902906.516000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv|
+!i113 1
+R6
+R7
+nframe@r@a@m
+vGameController
+R1
+R2
+!i10b 1
+!s100 HaMLdDFkHV9lcdkNL6YWE2
+I_S^0AaXFO^;zi6zh6H4bE2
+R3
+!s105 GameController_sv_unit
+S1
+R0
+R4
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv
+L0 15
+R5
+r1
+!s85 0
+31
+!s108 1461902905.644000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv|
+!i113 1
+R6
+R7
+n@game@controller
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 aRJgNbH8ER_E]Y]fbToTV0
+IiZl7?0=`94g:h_J;cM>j03
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R4
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1461902905.332000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv|
+!i113 1
+R6
+R7
+n@hex@driver
+vpixelLogic
+R1
+R9
+!i10b 1
+!s100 YBI^GkAR8nYiN>iR<FYRc0
+IbTg@`XNke]c>9=?DOi;n>2
+R3
+!s105 PixelLogic_sv_unit
+S1
+R0
+w1461902605
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1461902906.214000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv|
+!i113 1
+R6
+R7
+npixel@logic
+vPlayer
+R1
+R9
+!i10b 1
+!s100 W_8]]D?>8;XW6lE:kB_Cd1
+Ib@LJN8h;4f1W6`=RVbdO91
+R3
+!s105 Player_sv_unit
+S1
+R0
+w1461899356
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1461902906.056000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv|
+!i113 1
+R6
+R7
+n@player
+vplayerFrameBuffer
+R1
+R9
+!i10b 1
+!s100 17Qkh<6i[0lUB[HYzj@Kb3
+IV]DE5@[o0kNNGmgSV]od>2
+R3
+!s105 playerFrameBuffer_sv_unit
+S1
+R0
+w1461896240
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1461902906.687000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv|
+!i113 1
+R6
+R7
+nplayer@frame@buffer
+vplayerMovement
+R1
+R8
+!i10b 1
+!s100 >]?H>nllkJ[96Geo6icoU3
+I_Qf7REBQK3nO_];g9eIYz1
+R3
+!s105 playerMovement_sv_unit
+S1
+R0
+w1461901694
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1461902904.674000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv|
+!i113 1
+R6
+R7
+nplayer@movement
+vplayerSprites
+R1
+R9
+!i10b 1
+!s100 M75LjnEMDX^F8lE<PXAO82
+IHMh<NIGMbAO[UGlbBd0ZM0
+R3
+!s105 playerSprites_sv_unit
+S1
+R0
+w1461902210
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461902906.344000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv|
+!i113 1
+R6
+R7
+nplayer@sprites
+vvga_controller
+R1
+R2
+!i10b 1
+!s100 aK8E[XYP6]P2MGbW=[J_W2
+IgIn9:Lf?OTT1=h;hQo=^51
+R3
+!s105 VGA_controller_sv_unit
+S1
+R0
+w1461533828
+8U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv
+FU:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv
+L0 25
+R5
+r1
+!s85 0
+31
+!s108 1461902905.908000
+!s107 U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites|U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv|
+!i113 1
+R6
+R7

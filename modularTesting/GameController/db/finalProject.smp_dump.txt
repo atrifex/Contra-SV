@@ -1,0 +1,6 @@
+
+State Machine - |finalProjectTopLevel|GameController:gameControllerInst|gameStateCurr
+Name gameStateCurr.Start gameStateCurr.GameOver gameStateCurr.Play 
+gameStateCurr.Start 0 0 0 
+gameStateCurr.Play 1 0 1 
+gameStateCurr.GameOver 1 1 0 

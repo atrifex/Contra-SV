@@ -1,0 +1,33 @@
+
+module  sprites 
+( 
+					input[10:0]address,		// 11 bits are required to address memory
+					input[1:0] index,		// index for which sprite we are looking for
+					
+					output[4:0] pixelData	// this is the pixel data that we output ----> encoded bits
+);
+    
+logic [4:0] SpriteRom [0:2][0:1079] 			// test sprite ROM
+		// width 5 bits, 1080 address spaces, 3 such banks to store the there different sprites.
+		
+assign pixelData = SpriteRom[address][index];
+		
+initial
+	begin
+			$readmemh("heroMem.txt", SpriteRom);
+	end
+
+integer h,i;
+
+initial begin
+        $display("rSpriteRom:");
+		for(h = 0; h<3; h = h + 1)
+			for (i=0; i < 1080; i=i+1)
+				$display("%d:%h",i,SpriteRom[h][i]);
+end     
+
+
+
+endmodule 
+	
+endmodule

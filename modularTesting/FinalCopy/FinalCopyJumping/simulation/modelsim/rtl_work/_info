@@ -1,0 +1,358 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/simulation/modelsim
+vColor_Mapper5Bit
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1461967095
+!i10b 1
+!s100 ao>h]5GzJz=9l^0h1X6>=1
+IcOD=P=h]_1PA1W2YNVcD=3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 Color_Mapper5Bit_sv_unit
+S1
+R0
+w1461959790
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv
+L0 4
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1461967094.992000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling}
+n@color_@mapper5@bit
+vfinalProjectTopLevel
+R1
+R2
+!i10b 1
+!s100 jzHR4ZCk8WVX0J^[^<cLP1
+IlVj`O`=XhJ2YEQW_K2]Xi1
+R3
+!s105 finalProjectTopLevel_sv_unit
+S1
+R0
+w1461962236
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967095.501000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv|
+!i113 1
+R5
+R6
+nfinal@project@top@level
+vFrameBuffer
+R1
+R2
+!i10b 1
+!s100 UKHjUzdg]d;Kj;A[SWfXA3
+I^GLR`5dhkjF2M@IBnol2?0
+R3
+!s105 FrameBuffer_sv_unit
+S1
+R0
+w1461965234
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967095.116000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv|
+!i113 1
+R5
+R6
+n@frame@buffer
+vFrameCounter
+R1
+Z7 !s110 1461967094
+!i10b 1
+!s100 3EV@>7mB8Za7dUB7AOIid1
+IBW]8DjS8[2OWQ6h8:6KAl0
+R3
+!s105 FrameCounter_sv_unit
+S1
+R0
+w1461534618
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967094.746000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv|
+!i113 1
+R5
+R6
+n@frame@counter
+vFramePtrRegister
+R1
+R2
+!i10b 1
+!s100 X^PM1]j`BEEFEh1=I[9E33
+IVFRU^iVF5]0A>S^lOd7zl0
+R3
+!s105 FramePtrRegister_sv_unit
+S1
+R0
+w1461964405
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1461967095.889000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv|
+!i113 1
+R5
+R6
+n@frame@ptr@register
+vframeRAM
+R1
+Z8 !s110 1461967096
+!i10b 1
+!s100 i=HV9ZW?fDI^2CMeniIbU1
+IiRB^mo?SW5AY;A82:l@1T0
+R3
+!s105 frameRAM_sv_unit
+S1
+R0
+w1461524506
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967096.018000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv|
+!i113 1
+R5
+R6
+nframe@r@a@m
+vGameController
+R1
+R2
+!i10b 1
+!s100 HaMLdDFkHV9lcdkNL6YWE2
+IMXXZd9`KL14XGU61a=jzd1
+R3
+!s105 GameController_sv_unit
+S1
+R0
+w1461876681
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv
+L0 15
+R4
+r1
+!s85 0
+31
+!s108 1461967095.371000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv|
+!i113 1
+R5
+R6
+n@game@controller
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 aRJgNbH8ER_E]Y]fbToTV0
+IfodjIKaZ3O6ZNn`cSnjBk1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1461524504
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1461967095.242000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vRegister1Bit
+R1
+R7
+!i10b 1
+!s100 Dm>KHAhiL5R4Tgi3oF4F=3
+I@9=6j=Q2H7CoKQ@@;FmI;1
+R3
+!s105 Register1Bit_sv_unit
+S1
+R0
+w1461962242
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1461967094.574000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv|
+!i113 1
+R5
+R6
+n@register1@bit
+vSprites
+R1
+R8
+!i10b 1
+!s100 i4RQH@m]fPNKcSL_>O`mE2
+IMnL<n=2G>]fJZOLQ5>Ni^1
+R3
+!s105 Sprites_sv_unit
+S1
+R0
+w1461965393
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967096.140000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv|
+!i113 1
+R5
+R6
+n@sprites
+vSRAM_Controller
+R1
+R2
+!i10b 1
+!s100 K?@C9_4hHHnY7EBmjJkBF3
+I>YPdlJAGYIf>0P^7^5dz01
+R3
+!s105 SRAM_Controller_sv_unit
+S1
+R0
+w1461906744
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967095.764000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv|
+!i113 1
+R5
+R6
+n@s@r@a@m_@controller
+vStartScreenMux
+R1
+R7
+!i10b 1
+!s100 15GB8aPAoojOg?3^<IK4d1
+IB4mRA9ng5U1CImG5m9DmK3
+R3
+!s105 StartScreenMux_sv_unit
+S1
+R0
+w1461805717
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1461967094.866000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv|
+!i113 1
+R5
+R6
+n@start@screen@mux
+vtestbench
+R1
+R8
+!i10b 1
+!s100 n4L>7kH;mo=Z?6C4EVjnl1
+I<;>Zb9zUS9B2PNW^0AF_10
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1461967083
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1461967096.262000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv|
+!i113 1
+R5
+R6
+vvga_controller
+R1
+R2
+!i10b 1
+!s100 aK8E[XYP6]P2MGbW=[J_W2
+Ij76NPm98<DIQj7ES__7Oz1
+R3
+!s105 VGA_controller_sv_unit
+S1
+R0
+w1461609078
+8U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv
+FU:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv
+L0 25
+R4
+r1
+!s85 0
+31
+!s108 1461967095.630000
+!s107 U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling|U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv|
+!i113 1
+R5
+R6

@@ -1,0 +1,27 @@
+module pixelLogic
+(						
+						input Clk, Reset
+						input logic [9:0] prevPixel, PlayerX, PlayerY, DrawX, DrawY, playerHeight, playerWidth,
+						
+						output logic [9:0] pixelOut
+
+
+);
+
+
+always_ff @(posedge Clk)
+begin
+	if(Reset)
+		pixelOut <= 5'h15;
+	else
+		begin
+			if(DrawX < PlayerX + playerWidth && DrawY < PlayerY + PlayerHeight)
+					pixelOut <= playerPixel;
+			else
+				pixelOut <= prevPixel;
+		
+		end
+
+end
+
+endmodule

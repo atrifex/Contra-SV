@@ -1,0 +1,30 @@
+
+State Machine - |finalProjectTopLevel|keyboard:PS2Controller|Press
+Name Press.000 Press.010 Press.001 
+Press.010 0 0 0 
+Press.001 0 1 1 
+Press.000 1 1 0 
+
+State Machine - |finalProjectTopLevel|FrameCounter:frameCount|VStateCurr
+Name VStateCurr.VSyncFrontPorch VStateCurr.VSyncBackPorch VStateCurr.VSync 
+VStateCurr.VSyncFrontPorch 0 0 0 
+VStateCurr.VSync 1 0 1 
+VStateCurr.VSyncBackPorch 1 1 0 
+
+State Machine - |finalProjectTopLevel|GameController:gameControllerInst|gameStateCurr
+Name gameStateCurr.Start gameStateCurr.GameOver gameStateCurr.Play 
+gameStateCurr.Start 0 0 0 
+gameStateCurr.Play 1 0 1 
+gameStateCurr.GameOver 1 1 0 
+
+State Machine - |finalProjectTopLevel|Player:heroInst|playerAnimation:playerAnimationInst|playerCurr
+Name playerCurr.player1 playerCurr.player8 playerCurr.player7 playerCurr.player6 playerCurr.player5 playerCurr.player4 playerCurr.player3 playerCurr.player2 playerCurr.playerWait 
+playerCurr.playerWait 0 0 0 0 0 0 0 0 0 
+playerCurr.player2 0 0 0 0 0 0 0 1 1 
+playerCurr.player3 0 0 0 0 0 0 1 0 1 
+playerCurr.player4 0 0 0 0 0 1 0 0 1 
+playerCurr.player5 0 0 0 0 1 0 0 0 1 
+playerCurr.player6 0 0 0 1 0 0 0 0 1 
+playerCurr.player7 0 0 1 0 0 0 0 0 1 
+playerCurr.player8 0 1 0 0 0 0 0 0 1 
+playerCurr.player1 1 0 0 0 0 0 0 0 1 

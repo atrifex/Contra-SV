@@ -1,0 +1,14 @@
+module FramePtrRegister (input Clk, Reset,
+					  output logic [12:0]  FramePtr);
+
+    always_ff @ (posedge Clk) // sequential logic
+    begin
+    if (Reset || Data_Out == 13'd4114) 
+			FramePtr <= 13'd0; // parallel out of 0 
+	 else 
+			FramePtr <= ;
+    end
+
+endmodule
+
+

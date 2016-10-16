@@ -1,0 +1,36 @@
+module  playerAnimation
+( 	
+				input frame_Clk, Reset, VS,
+				input[9:0] DrawX, DrawY,
+
+				input logic[1:0] gameState,
+				input logic[4:0] pixelIn,
+				
+				output logic[4:0] pixelOut
+);
+
+enum logic {, Screen2} ScreenCurr, ScreenNext;
+enum logic[1:0] {VSyncFrontPoarch, VSync, VSyncBackPoarch} VStateCurr, VStateNext;
+
+logic[5:0] counter;
+
+always_ff @ (posedge frame_Clk)
+begin
+	if(Reset)
+		begin
+			ScreenCurr <= Screen1;
+			counter <= 6'b0;
+			VStateCurr <= VSyncFrontPoarch; 
+		end 
+	else
+		begin
+			ScreenCurr <= ScreenNext;
+			VStateCurr <= VStateNext;
+			if(counter == 6'b111111)
+				counter <= 6'b0;
+			else if(VStateCurr == VSync)
+				counter <= counter + 6'b000001;
+			else
+				counter <= counter;				
+		end
+end

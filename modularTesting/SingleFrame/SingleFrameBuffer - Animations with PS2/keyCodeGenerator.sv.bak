@@ -1,0 +1,24 @@
+module keyCodeGenerator
+(
+								input Reset, Clk, 
+								input [2:0] keyCount, keyPriority1, keyPriority2, keyPriority3, keyPriority4,
+								input [7:0] keyCode1, keyCode2, keyCode3, keyCode4,
+								
+								output [7:0] keyCode
+);
+
+
+
+always_comb
+begin
+	unique case(keyCount)
+	3'b1:
+	3'b2:
+	3'b3:
+	3'b4:
+	default:
+	begin
+		keyCode = 8'b0;
+	end
+
+end

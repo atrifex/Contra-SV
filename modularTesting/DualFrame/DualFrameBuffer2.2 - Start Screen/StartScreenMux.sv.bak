@@ -1,0 +1,97 @@
+
+module  StartScreenMux 
+( 	
+				input frame_Clk, Reset, VS,
+				input[9:0] DrawX, DrawY,
+
+				input logic[1:0] gameState,
+				input logic[4:0] pixelIn,
+				
+				output logic[4:0] pixelOut,
+);
+
+enum logic {Screen1, Screen2} ScreenCurr, ScreenNext;
+enum logic {VSyncFrontPoarch, VSync, VSyncBackPoarch} VStateCurr, VStateNext;
+
+logic[6:0] counter;
+
+always_ff @ (posedge frame_Clk)
+begin
+	if(Reset)
+		begin
+			ScreenCurr <= Screen1;
+			counter <= 6'b0;
+			VStateCurr <= VSyncFrontPoarch; 
+		end 
+	else
+		begin
+			ScreenCurr <= ScreenNext
+			VStateCurr <= VStateNext;;
+			if(VStateCurr == VSync)
+				counter <= counter + 7'b0000001;
+			else
+				counter <= counter;				
+		end
+end
+
+// Next State Logic for Screen
+always_comb
+begin
+	ScreenNext = ScreenCurr;	
+	case(ScreenCurr)
+		Screen1:
+			begin
+				if(couter == 7'b1111111)
+					ScreenNext = Screen2;			
+			end
+		Screen2:
+			begin
+				if(couter == 7'b1111111)
+					ScreenNext = Screen1;			
+			end
+	endcase
+end						
+
+// Next State logic for VState
+always_comb
+begin
+	VStateNext = VStateCurr;	
+	case(VStateCurr)
+		VSyncFrontPoarch:
+			begin
+				if(~VS)
+					VStateCurr = VSync;
+			end
+		VSync:
+			begin
+				if(~VS)
+					VStateCurr = VSyncBackPoarch;
+			end
+		VSyncBackPoarch:
+			begin
+				if(VS)
+					VStateCurr = VSyncFrontPoarch;
+			end
+	endcase
+end		
+
+
+// Output logic:
+always_comb
+begin
+	if(ScreenCurr == Screen2)
+		pixelOut = pixelIn;
+	else
+		begin
+			if(90 < DrawX && DrawX < 335)
+				begin
+					if(300 < DrawY && DrawY < 340)
+						pixelOut = 5'b0;
+				end
+			else
+				pixelOut = pixelIn;
+		end
+end
+
+
+endmodule

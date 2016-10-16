@@ -1,0 +1,171 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do finalProject_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:14 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Register1Bit.sv 
+# -- Compiling module Register1Bit
+# 
+# Top level modules:
+# 	Register1Bit
+# End time: 16:58:14 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:14 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameCounter.sv 
+# -- Compiling module FrameCounter
+# 
+# Top level modules:
+# 	FrameCounter
+# End time: 16:58:14 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:14 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/StartScreenMux.sv 
+# -- Compiling module StartScreenMux
+# 
+# Top level modules:
+# 	StartScreenMux
+# End time: 16:58:14 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:14 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Color_Mapper5Bit.sv 
+# -- Compiling module Color_Mapper5Bit
+# 
+# Top level modules:
+# 	Color_Mapper5Bit
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FrameBuffer.sv 
+# -- Compiling module FrameBuffer
+# 
+# Top level modules:
+# 	FrameBuffer
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/GameController.sv 
+# -- Compiling module GameController
+# 
+# Top level modules:
+# 	GameController
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/finalProjectTopLevel.sv 
+# -- Compiling module finalProjectTopLevel
+# 
+# Top level modules:
+# 	finalProjectTopLevel
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/SRAM_Controller.sv 
+# -- Compiling module SRAM_Controller
+# 
+# Top level modules:
+# 	SRAM_Controller
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:15 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/FramePtrRegister.sv 
+# -- Compiling module FramePtrRegister
+# 
+# Top level modules:
+# 	FramePtrRegister
+# End time: 16:58:15 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:16 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/frameRAM.sv 
+# -- Compiling module frameRAM
+# 
+# Top level modules:
+# 	frameRAM
+# End time: 16:58:16 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:16 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/Sprites.sv 
+# -- Compiling module Sprites
+# 
+# Top level modules:
+# 	Sprites
+# End time: 16:58:16 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Scrolling {U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:58:16 on Apr 29,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling" U:/ece385/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Scrolling/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:58:16 on Apr 29,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "finalProject_run_msim_rtl_verilog.do" 
+# Start time: 16:58:16 on Apr 29,2016
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.FramePtrRegister
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 550000 ns
+# End time: 17:00:03 on Apr 29,2016, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0

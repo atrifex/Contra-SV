@@ -1,0 +1,171 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do finalProject_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:24 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerMovement.sv 
+# -- Compiling module playerMovement
+# 
+# Top level modules:
+# 	playerMovement
+# End time: 23:08:24 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:24 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameCounter.sv 
+# -- Compiling module FrameCounter
+# 
+# Top level modules:
+# 	FrameCounter
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Color_Mapper5Bit.sv 
+# -- Compiling module Color_Mapper5Bit
+# 
+# Top level modules:
+# 	Color_Mapper5Bit
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/FrameBuffer.sv 
+# -- Compiling module FrameBuffer
+# 
+# Top level modules:
+# 	FrameBuffer
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/GameController.sv 
+# -- Compiling module GameController
+# 
+# Top level modules:
+# 	GameController
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/finalProjectTopLevel.sv 
+# -- Compiling module finalProjectTopLevel
+# 
+# Top level modules:
+# 	finalProjectTopLevel
+# End time: 23:08:25 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:25 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:26 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/Player.sv 
+# -- Compiling module Player
+# 
+# Top level modules:
+# 	Player
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:26 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/PixelLogic.sv 
+# -- Compiling module pixelLogic
+# 
+# Top level modules:
+# 	pixelLogic
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:26 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerSprites.sv 
+# -- Compiling module playerSprites
+# 
+# Top level modules:
+# 	playerSprites
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:26 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/frameRAM.sv 
+# -- Compiling module frameRAM
+# 
+# Top level modules:
+# 	frameRAM
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer\ -\ Sprites {U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:08:26 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites" U:/ECE_Classes/ECE-385/Final_Project/modularTesting/SingleFrame/SingleFrameBuffer - Sprites/playerFrameBuffer.sv 
+# -- Compiling module playerFrameBuffer
+# 
+# Top level modules:
+# 	playerFrameBuffer
+# End time: 23:08:26 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+wave create -pattern none -portmode input -language vlog /playerSprites/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# playerSprites
+wave create -pattern none -portmode input -language vlog /playerSprites/Reset
+# playerSprites
+wave create -pattern none -portmode input -language vlog /playerSprites/frame_Clk
+# playerSprites
+wave create -pattern none -portmode input -language vlog /playerSprites/playerDirection
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/DrawX
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/DrawY
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/PlayerX
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/PlayerY
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/PlayerHeight
+# playerSprites
+wave create -pattern none -portmode input -language vlog -range 9 0 /playerSprites/PlayerWidth
+# playerSprites
+wave create -pattern none -portmode output -language vlog /playerSprites/playerOn
+# playerSprites
+wave create -pattern none -portmode output -language vlog -range 4 0 /playerSprites/pixelData
+# playerSprites

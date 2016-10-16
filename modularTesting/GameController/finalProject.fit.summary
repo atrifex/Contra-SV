@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Apr 20 13:11:39 2016
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : finalProject
+Top-level Entity Name : finalProjectTopLevel
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 177 / 114,480 ( < 1 % )
+    Total combinational functions : 176 / 114,480 ( < 1 % )
+    Dedicated logic registers : 46 / 114,480 ( < 1 % )
+Total registers : 46
+Total pins : 36 / 529 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

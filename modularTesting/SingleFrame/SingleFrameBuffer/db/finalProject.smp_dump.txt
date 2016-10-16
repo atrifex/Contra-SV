@@ -1,0 +1,17 @@
+
+State Machine - |finalProjectTopLevel|keyCur
+Name keyCur.Wait keyCur.KeyRelease keyCur.PressKey 
+keyCur.Wait 0 0 0 
+keyCur.PressKey 1 0 1 
+keyCur.KeyRelease 1 1 0 
+
+State Machine - |finalProjectTopLevel|FrameBuffer:frameBufferInst|frameStateCurr
+Name frameStateCurr.Read_Write 
+frameStateCurr.Wait 0 
+frameStateCurr.Read_Write 1 
+
+State Machine - |finalProjectTopLevel|GameController:gameControllerInst|gameStateCurr
+Name gameStateCurr.Start gameStateCurr.GameOver gameStateCurr.Play 
+gameStateCurr.Start 0 0 0 
+gameStateCurr.Play 1 0 1 
+gameStateCurr.GameOver 1 1 0 

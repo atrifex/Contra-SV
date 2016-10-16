@@ -1,0 +1,17 @@
+module Mux
+(
+				input [20:0] address1, address2,
+				input [4:0] keycode,
+				
+				output [20:0] spriteAddress
+);
+
+always_comb
+begin
+	case (keycode[3:0])
+	4'h0: spriteAddress = address1;
+	4'h4: spriteAddress = address2;
+	endcase
+end
+
+endmodule

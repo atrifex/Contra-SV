@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:vgasync_instance|clkdiv'
+Slack : -16.506
+TNS   : -1962.422
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -10.992
+TNS   : -7305.768
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:vgasync_instance|vs'
+Slack : -7.982
+TNS   : -119.558
+
+Type  : Slow 1200mV 85C Model Setup 'FrameCounter:frameCount|counter[0]'
+Slack : -3.451
+TNS   : -137.681
+
+Type  : Slow 1200mV 85C Model Setup 'FrameCounter:frameCount|counter[4]'
+Slack : -2.355
+TNS   : -11.775
+
+Type  : Slow 1200mV 85C Model Setup 'PS2_CLK'
+Slack : -0.468
+TNS   : -2.170
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:vgasync_instance|vs'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:vgasync_instance|clkdiv'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FrameCounter:frameCount|counter[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FrameCounter:frameCount|counter[4]'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PS2_CLK'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -2349.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.000
+TNS   : -28.700
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:vgasync_instance|clkdiv'
+Slack : -1.285
+TNS   : -232.585
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[0]'
+Slack : -1.285
+TNS   : -59.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:vgasync_instance|vs'
+Slack : -1.285
+TNS   : -51.400
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[4]'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:vgasync_instance|clkdiv'
+Slack : -14.810
+TNS   : -1768.019
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -9.857
+TNS   : -6610.275
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:vgasync_instance|vs'
+Slack : -7.207
+TNS   : -104.865
+
+Type  : Slow 1200mV 0C Model Setup 'FrameCounter:frameCount|counter[0]'
+Slack : -3.065
+TNS   : -122.645
+
+Type  : Slow 1200mV 0C Model Setup 'FrameCounter:frameCount|counter[4]'
+Slack : -2.079
+TNS   : -10.395
+
+Type  : Slow 1200mV 0C Model Setup 'PS2_CLK'
+Slack : -0.322
+TNS   : -0.957
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:vgasync_instance|vs'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:vgasync_instance|clkdiv'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FrameCounter:frameCount|counter[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FrameCounter:frameCount|counter[4]'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PS2_CLK'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -2313.565
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.000
+TNS   : -28.700
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:vgasync_instance|clkdiv'
+Slack : -1.285
+TNS   : -232.585
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[0]'
+Slack : -1.285
+TNS   : -59.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:vgasync_instance|vs'
+Slack : -1.285
+TNS   : -51.400
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[4]'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:vgasync_instance|clkdiv'
+Slack : -7.596
+TNS   : -870.537
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -4.801
+TNS   : -3210.895
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:vgasync_instance|vs'
+Slack : -3.395
+TNS   : -42.579
+
+Type  : Fast 1200mV 0C Model Setup 'FrameCounter:frameCount|counter[0]'
+Slack : -1.234
+TNS   : -45.667
+
+Type  : Fast 1200mV 0C Model Setup 'FrameCounter:frameCount|counter[4]'
+Slack : -0.686
+TNS   : -3.430
+
+Type  : Fast 1200mV 0C Model Setup 'PS2_CLK'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:vgasync_instance|vs'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:vgasync_instance|clkdiv'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FrameCounter:frameCount|counter[0]'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FrameCounter:frameCount|counter[4]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PS2_CLK'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -1047.280
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.000
+TNS   : -29.600
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:vgasync_instance|clkdiv'
+Slack : -1.000
+TNS   : -181.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[0]'
+Slack : -1.000
+TNS   : -46.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:vgasync_instance|vs'
+Slack : -1.000
+TNS   : -40.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FrameCounter:frameCount|counter[4]'
+Slack : -1.000
+TNS   : -5.000
+
+------------------------------------------------------------
