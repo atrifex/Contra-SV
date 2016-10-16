@@ -17,46 +17,46 @@ Introduction
 Circuit Description
 ===================
 
-We implemented a old school platformer called Contra completely in
-hardware. This implementation of the first level of Contra required many
-different components to work correctly. Since everything was done in
-hardware, we needed to build comprehensive state machines that dealt
-with the different states of the game. The main flow of data in our
-design was controlled by an overarching module called the game
-controller. The game controller contained a state machine that took into
-account 3 different states. These states were START, PLAY, and GAME
-OVER. Based on these three states, the rest of the circuit would
-rearrange the internal flow of data and make sure that the design was
-performing the designated tasks for those three states. More specifics
-on how the game state controller works are provided in section 3. In the
-START state, access to the frame buffer is shut off. Since our frame
-buffer is preloaded with the image of the start screen, we do not want
-to overwrite this image with the game data. Due to this, during the
-START state the frame buffer just constantly copies itself into itself.
-Also, during this state, we have enabled blinking of the pixels in the
-bottom left portion of the screen. This emulates simple animation for
-the text blinking on the screen. More information about the start screen
-animation is provided in section 11. The last important thing that
-occurs in the START state is the fact that all of the PLAY state
-components are initialized to their starting values. The player is
-placed on the first platform, all of the pointers are reset, and the
-actual game is set up. Once a key is pressed, the game state controller
-transitions over to the PLAY state. In this state, the flow of data
-transitions from the blocking to the accepting state. What this means is
-that the frame buffer is enabled and the game data is allowed to be
-written into it. We use a pixel logic module to choose which pixel to
-put in which memory location. More information on how this happens is
-provided in the sections below. The overall flow of data once the game
-was in the PLAY state was dictated by the user. Based on the inputs from
-the user through the use of the PS/2 keyboard, we were able to send
-signals to the player module to create changes in the player position
-and animations. These changes were then visualized through the use of
-the frame buffer. The frame buffer was then connected to the color
-mapper which then put the image we were trying to visualize onto the
-screen. The basic concept was that when the user pressed a key, a series
-of tasks were executed and then the change specified by the user was
-visualized onto the screen. This defined the general flow of data in our
-design.
+> We implemented a old school platformer called Contra completely in
+> hardware. This implementation of the first level of Contra required many
+> different components to work correctly. Since everything was done in
+> hardware, we needed to build comprehensive state machines that dealt
+> with the different states of the game. The main flow of data in our
+> design was controlled by an overarching module called the game
+> controller. The game controller contained a state machine that took into
+> account 3 different states. These states were START, PLAY, and GAME
+> OVER. Based on these three states, the rest of the circuit would
+> rearrange the internal flow of data and make sure that the design was
+> performing the designated tasks for those three states. More specifics
+> on how the game state controller works are provided in section 3. In the
+> START state, access to the frame buffer is shut off. Since our frame
+> buffer is preloaded with the image of the start screen, we do not want
+> to overwrite this image with the game data. Due to this, during the
+> START state the frame buffer just constantly copies itself into itself.
+> Also, during this state, we have enabled blinking of the pixels in the
+> bottom left portion of the screen. This emulates simple animation for
+> the text blinking on the screen. More information about the start screen
+> animation is provided in section 11. The last important thing that
+> occurs in the START state is the fact that all of the PLAY state
+> components are initialized to their starting values. The player is
+> placed on the first platform, all of the pointers are reset, and the
+> actual game is set up. Once a key is pressed, the game state controller
+> transitions over to the PLAY state. In this state, the flow of data
+> transitions from the blocking to the accepting state. What this means is
+> that the frame buffer is enabled and the game data is allowed to be
+> written into it. We use a pixel logic module to choose which pixel to
+> put in which memory location. More information on how this happens is
+> provided in the sections below. The overall flow of data once the game
+> was in the PLAY state was dictated by the user. Based on the inputs from
+> the user through the use of the PS/2 keyboard, we were able to send
+> signals to the player module to create changes in the player position
+> and animations. These changes were then visualized through the use of
+> the frame buffer. The frame buffer was then connected to the color
+> mapper which then put the image we were trying to visualize onto the
+> screen. The basic concept was that when the user pressed a key, a series
+> of tasks were executed and then the change specified by the user was
+> visualized onto the screen. This defined the general flow of data in our
+> design.
 
 Project Top Level Module
 ========================
@@ -78,31 +78,31 @@ height="4.146070647419073in"}
 Game Controller Module
 ======================
 
-The game controller is the control unit for our entire game. It is a
-very simple module, but it plays a very important role in setting up the
-entire game and making sure that the rest of the state machines get
-initialized to the correct values. The inputs into this module are
-Reset, Clk, playerDead, and keycode. The output from this module is the
-state of the internal state machine. Through its states, it basically
-controls the data flow of the entire circuit. There are three states
-through which it transitions. These states are Start, Play, and Game
-Over. If you are in the Start state, all the components related to the
-game are turned off. During this state, the circuit is instructed to
-output the title screen to the display with blinking text. If any key is
-pressed, then we transition to the Play state. In this state, the game
-has started and all of the other state machines related to the game are
-initialized as such. When the player dies, the state machine transitions
-to the Game Over state. In this state, there is a end screen which is
-displayed to the monitor. If the user presses any key, then the player
-is respawned and the game starts again. The block diagram and next state
-diagram of this circuit are presented in the sections below.
+> The game controller is the control unit for our entire game. It is a
+> very simple module, but it plays a very important role in setting up the
+> entire game and making sure that the rest of the state machines get
+> initialized to the correct values. The inputs into this module are
+> Reset, Clk, playerDead, and keycode. The output from this module is the
+> state of the internal state machine. Through its states, it basically
+> controls the data flow of the entire circuit. There are three states
+> through which it transitions. These states are Start, Play, and Game
+> Over. If you are in the Start state, all the components related to the
+> game are turned off. During this state, the circuit is instructed to
+> output the title screen to the display with blinking text. If any key is
+> pressed, then we transition to the Play state. In this state, the game
+> has started and all of the other state machines related to the game are
+> initialized as such. When the player dies, the state machine transitions
+> to the Game Over state. In this state, there is a end screen which is
+> displayed to the monitor. If the user presses any key, then the player
+> is respawned and the game starts again. The block diagram and next state
+> diagram of this circuit are presented in the sections below.
 
 1.  Schematic Block Diagram
 
 ![](media/image2.png){width="5.713482064741907in"
 height="2.6310640857392826in"}
 
-1.  Next State Diagram
+2.  Next State Diagram
 
 ![](media/image3.png){width="5.89245406824147in"
 height="2.1710367454068242in"}
@@ -110,39 +110,39 @@ height="2.1710367454068242in"}
 VGA Controller Module
 =====================
 
-The VGA controller was used to setup the control signals for the display
-to which our design was outputting. The inputs into this module were
-clock and reset. The outputs were DrawX, DrawY, blank, hs, vs,
-pixel\_clk, and sync. The DrawX and DrawY signals were connected to the
-all of the modules related to sprites and background production. They
-gave these modules a reference to the position at which the electron
-beam was drawing. The vs and blank signals were used by many of the
-modules to help make sure that the drawing, motion, and collision
-detection were occurring synchronously with the refresh rate of the
-monitor. The rest of the output signals were directly connected to the
-display. The hs or horizontal sync was a short pulse at the end of a row
-of transmissions that kept the horizontal scanning of the screen exactly
-in sync with the transmission of the next row. This basically means that
-the horizontal sync was telling to screen that it needs to transition to
-outputting to the next line of pixels so that it doesn’t miss any
-pixels. The vs or vertical sync was also a short pulse except it was
-transmitted at end of each frame transmission instead of at the end of
-each row transmission. The purpose of the vertical sync was to help
-retain the frame by frame synchronization of the outputs. This basically
-means that the vertical sync told the screen to transition to outputting
-the first row and first column when it had reached the end of the last
-row. To make sure that the electron beam is not corrupting the image
-during these transition periods, a blank signal is used by the VGA
-controller to tell the electron beam to output nothing. This short
-period of time is known as the blanking period. Both the horizontal sync
-and the vertical sync are very important to the integrity of the image.
-The pixel\_clk was used to set the refresh rate of the screen. In the
-case of our design, we decided to set our pixel\_clk to 25 MHz. This
-allowed us to work at a rate of 60 frames per second and was fast enough
-such that the user would see any changes to be seamless. The last signal
-we outputted was the sync signal. This signal was disabled because it is
-not relevant to outputting our image. The image below shows the
-schematic block diagram of the VGA controller module.
+> The VGA controller was used to setup the control signals for the display
+> to which our design was outputting. The inputs into this module were
+> clock and reset. The outputs were DrawX, DrawY, blank, hs, vs,
+> pixel\_clk, and sync. The DrawX and DrawY signals were connected to the
+> all of the modules related to sprites and background production. They
+> gave these modules a reference to the position at which the electron
+> beam was drawing. The vs and blank signals were used by many of the
+> modules to help make sure that the drawing, motion, and collision
+> detection were occurring synchronously with the refresh rate of the
+> monitor. The rest of the output signals were directly connected to the
+> display. The hs or horizontal sync was a short pulse at the end of a row
+> of transmissions that kept the horizontal scanning of the screen exactly
+> in sync with the transmission of the next row. This basically means that
+> the horizontal sync was telling to screen that it needs to transition to
+> outputting to the next line of pixels so that it doesn’t miss any
+> pixels. The vs or vertical sync was also a short pulse except it was
+> transmitted at end of each frame transmission instead of at the end of
+> each row transmission. The purpose of the vertical sync was to help
+> retain the frame by frame synchronization of the outputs. This basically
+> means that the vertical sync told the screen to transition to outputting
+> the first row and first column when it had reached the end of the last
+> row. To make sure that the electron beam is not corrupting the image
+> during these transition periods, a blank signal is used by the VGA
+> controller to tell the electron beam to output nothing. This short
+> period of time is known as the blanking period. Both the horizontal sync
+> and the vertical sync are very important to the integrity of the image.
+> The pixel\_clk was used to set the refresh rate of the screen. In the
+> case of our design, we decided to set our pixel\_clk to 25 MHz. This
+> allowed us to work at a rate of 60 frames per second and was fast enough
+> such that the user would see any changes to be seamless. The last signal
+> we outputted was the sync signal. This signal was disabled because it is
+> not relevant to outputting our image. The image below shows the
+> schematic block diagram of the VGA controller module.
 
 ![](media/image4.png){width="5.798153980752406in"
 height="3.9807283464566927in"}
@@ -150,31 +150,31 @@ height="3.9807283464566927in"}
 5-Bit Color Mapper Module
 =========================
 
-The color mapper played a very important role in our design. Through its
-use, we were able to more efficiently use memory and make sure that
-there was enough room to store all of our sprites and background images.
-Our original images had 32 bit color depth. With this depth, it would
-have been impossible to fit most of the things that we needed in the
-memory we have allocated on the board. To fix this issue, we decided to
-compress our images through the use of a color palette. We realized that
-we only needed 21 total colors in our game and so we only truly needed a
-5-bit value to describe the color of each pixel. We included a 22nd
-color which accounted for transparency and allowed us to display images
-that had partial transparency in them. Though the use of a python script
-that we found, we were able to compress each image and convert it to a
-format that was recognizable by the memory initializer. The python
-script basically traversed through each pixel and mapped each pixel’s
-RGB values to its closest match in our predefined palette. If the
-transparency level for any pixel was less than 200, then that pixel was
-automatically mapped to our transparency color. The color mapper
-basically served as a decoder for this color palette. The input into
-this module was a 5-bit pixel value. The color mapper took this value
-and used an internal lookup table to map this value to its corresponding
-RGB value. These RGB values were then exported from this module and were
-directly connected to the display. Through this setup, were able to
-visualize all the graphics that corresponded to our game. The image
-below shows the block diagram of the color mapper module.
-
+> The color mapper played a very important role in our design. Through its
+> use, we were able to more efficiently use memory and make sure that
+> there was enough room to store all of our sprites and background images.
+> Our original images had 32 bit color depth. With this depth, it would
+> have been impossible to fit most of the things that we needed in the
+> memory we have allocated on the board. To fix this issue, we decided to
+> compress our images through the use of a color palette. We realized that
+> we only needed 21 total colors in our game and so we only truly needed a
+> 5-bit value to describe the color of each pixel. We included a 22nd
+> color which accounted for transparency and allowed us to display images
+> that had partial transparency in them. Though the use of a python script
+> that we found, we were able to compress each image and convert it to a
+> format that was recognizable by the memory initializer. The python
+> script basically traversed through each pixel and mapped each pixel’s
+> RGB values to its closest match in our predefined palette. If the
+> transparency level for any pixel was less than 200, then that pixel was
+> automatically mapped to our transparency color. The color mapper
+> basically served as a decoder for this color palette. The input into
+> this module was a 5-bit pixel value. The color mapper took this value
+> and used an internal lookup table to map this value to its corresponding
+> RGB value. These RGB values were then exported from this module and were
+> directly connected to the display. Through this setup, were able to
+> visualize all the graphics that corresponded to our game. The image
+> below shows the block diagram of the color mapper module.
+ 
 > ![](media/image5.png){width="5.823187882764654in"
 > height="3.218274278215223in"}
 
