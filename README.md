@@ -99,13 +99,11 @@ diagram of this circuit are presented in the sections below.
 
 1.  Schematic Block Diagram
 
-![](media/image2.png){width="5.713482064741907in"
-height="2.6310640857392826in"}
+![Alt text](/documentation/images/Picture2.png?raw=true "Optional Title")
 
 2.  Next State Diagram
 
-![](media/image3.png){width="5.89245406824147in"
-height="2.1710367454068242in"}
+![Alt text](/documentation/images/Picture3.png?raw=true "Optional Title")
 
 VGA Controller Module
 =====================
@@ -144,8 +142,7 @@ we outputted was the sync signal. This signal was disabled because it is
 not relevant to outputting our image. The image below shows the
 schematic block diagram of the VGA controller module.
 
-![](media/image4.png){width="5.798153980752406in"
-height="3.9807283464566927in"}
+![Alt text](/documentation/images/Picture4.png?raw=true "Optional Title")
 
 5-Bit Color Mapper Module
 =========================
@@ -175,8 +172,7 @@ directly connected to the display. Through this setup, were able to
 visualize all the graphics that corresponded to our game. The image
 below shows the block diagram of the color mapper module.
  
-> ![](media/image5.png){width="5.823187882764654in"
-> height="3.218274278215223in"}
+![Alt text](/documentation/images/Picture5.png?raw=true "Optional Title")
 
 Frame Counter Module
 ====================
@@ -200,12 +196,11 @@ diagrams for the frame counter module.
 
 1.  Schematic Block Diagram
 
-![](media/image6.png){width="7.05625in" height="2.0784273840769902in"}
+![Alt text](/documentation/images/Picture6.png?raw=true "Optional Title")
 
 2.  Next State Diagram
 
-![](media/image7.png){width="6.614419291338582in"
-height="2.2253390201224845in"}
+![Alt text](/documentation/images/Picture7.png?raw=true "Optional Title")
 
 Background Image Display
 ========================
@@ -263,13 +258,11 @@ formula and how it is accessing the different memory locations.
 
 1.  Schematic Block Diagram
 
-![](media/image8.png){width="6.97944772528434in"
-height="3.069851268591426in"}
+![Alt text](/documentation/images/Picture8.png?raw=true "Optional Title")
 
 2.  Visual Representation of SRAM Access Formula
 
-> ![](media/image9.png){width="6.315277777777778in"
-> height="3.1448687664041994in"}
+![Alt text](/documentation/images/Picture9.png?raw=true "Optional Title")
 
  Frame Pointer Register Module
 ==============================
@@ -291,8 +284,7 @@ access the SRAM. This would causes distortions in the image being
 displayed and thus be very bad for our project. The image below below
 shows the schematic block diagram for the frame pointer register module.
 
-> ![](media/image10.png){width="6.292361111111111in"
-> height="2.0821325459317586in"}
+![Alt text](/documentation/images/Picture10.png?raw=true "Optional Title")
 
  Start Screen Mux Module
 ========================
@@ -319,8 +311,7 @@ animation, it added to the overall aesthetic of the game and user
 experience. The image below shows the schematic block diagram of this
 module.
 
-> ![](media/image11.png){width="5.884353674540683in"
-> height="2.2412095363079616in"}
+![Alt text](/documentation/images/Picture11.png?raw=true "Optional Title")
 
  Single Frame Buffer Controller Module
 ======================================
@@ -375,8 +366,7 @@ equivalent to the read address. Through the use of this simple system,
 we were able to output to the screen the buffered pixel values in the
 frame buffer. The schematic block diagram of this module is shown below.
 
-![](media/image12.png){width="6.750694444444444in"
-height="2.24501312335958in"}
+![Alt text](/documentation/images/Picture12.png?raw=true "Optional Title")
 
  Single Frame Buffer Module
 ===========================
@@ -388,7 +378,7 @@ data\_Out value. This block of memory allowed us to read and write our
 frame data and thus allowed us to visualize our entire game. The
 schematic block diagram of this module is shown in the image below.
 
-![](media/image13.png){width="6.4875in" height="2.865972222222222in"}
+![Alt text](/documentation/images/Picture13.png?raw=true "Optional Title")
 
  Pixel Logic Module
 ===================
@@ -415,8 +405,7 @@ flow of data going into the frame buffer and thus visualize the game to
 the display perfectly. The image below shows the schematic block diagram
 of the pixel logic module.
 
-> ![](media/image14.png){width="5.774580052493438in"
-> height="1.7802165354330708in"}
+![Alt text](/documentation/images/Picture14.png?raw=true "Optional Title")
 
  PS/2 Keyboard Module
 =====================
@@ -481,8 +470,7 @@ experience. The image below shows the schematic block diagram of the
 PS/2 driver module. Due to its complexity, the image isn’t really
 understandable.
 
-![](media/image15.png){width="7.113293963254593in"
-height="1.000877077865267in"}
+![Alt text](/documentation/images/Picture15.png?raw=true "Optional Title")
 
 1.  11-Bit Register Module
 
@@ -497,8 +485,7 @@ Reset, Shift\_in, Load, Shift\_En, and D. The outputs from this module
 were Shift\_Out and Data\_Out. The image below shows the schematic block
 diagram of the 11-Bit register module.
 
-![](media/image16.png){width="1.9956900699912512in"
-height="6.98087489063867in"}
+![Alt text](/documentation/images/Picture16.png?raw=true "Optional Title")
 
 2.  D-Register Module
 
@@ -512,8 +499,7 @@ module stored a single bit and made it available for the PS/2 driver to
 use when it needed to. The schematic block diagram of this module is
 shown in the image below.
 
-> ![](media/image17.png){width="1.5454101049868767in"
-> height="1.3450787401574804in"}
+![Alt text](/documentation/images/Picture17.png?raw=true "Optional Title")
 
  Keycode Generator Module
 =========================
@@ -540,8 +526,7 @@ aminations were synchronously outputted at each frame. This made sure
 that the motions were fluid and without any errors. The image below
 shows the schematic block diagram of this module.
 
-> ![](media/image18.png){width="6.1923807961504815in"
-> height="4.609484908136483in"}
+![Alt text](/documentation/images/Picture18.png?raw=true "Optional Title")
 
  Platform Detector Module
 =========================
@@ -577,8 +562,7 @@ the platform. This was done so that all of the other modules could then
 modularly use these inputs to define the bounds of the player. The image
 below shows the schematic block diagram of this module.
 
-![](media/image19.png){width="7.055195756780402in"
-height="3.085095144356955in"}
+![Alt text](/documentation/images/Picture19.png?raw=true "Optional Title")
 
  Player Module
 ==============
@@ -598,8 +582,7 @@ player. The specifics of how each of these inputs are used and how the
 outputs are determined are described in the submodules below. The image
 below shows the schematic block diagram of this top level player module.
 
-> ![](media/image20.png){width="4.182667322834646in"
-> height="5.97418416447944in"}
+![Alt text](/documentation/images/Picture20.png?raw=true "Optional Title")
 
 1.  Player Movement
 
@@ -657,8 +640,7 @@ and characteristics of the background itself. The image below shows the
 schematic of this module. Its barely understandable due to the
 complexity of this module.
 
-> ![](media/image21.png){width="6.315236220472441in"
-> height="1.5548108048993876in"}
+![Alt text](/documentation/images/Picture21.png?raw=true "Optional Title")
 
 2.  Player Animations
 
@@ -718,7 +700,7 @@ examples of how the rest of the animations were designed.
 Due to its complexity, this block diagram is fairly difficult to
 understand. It is described in the section above.
 
-> ![](media/image22.png){width="6.5in" height="1.8534722222222222in"}
+![Alt text](/documentation/images/Picture22.png?raw=true "Optional Title")
 
 4.  Running Animation Next State Diagram
 
@@ -726,7 +708,7 @@ The image below shows the next state diagram for the running animation.
 Each state corresponds to seeing a different sprite. More details on how
 this works are provided in section 18.2.
 
-> ![](media/image23.png){width="6.5in" height="1.9875in"}
+![Alt text](/documentation/images/Picture23.png?raw=true "Optional Title")
 
 5.  Animation Mux
 
@@ -746,8 +728,7 @@ player width from the player animation representing the wait state for
 the player. The image on the next page shows the schematic block diagram
 of this module.
 
-![](media/image24.png){width="1.3920461504811898in"
-height="6.750042650918635in"}
+![Alt text](/documentation/images/Picture24.png?raw=true "Optional Title")
 
 6.  Player ROM
 
@@ -760,7 +741,7 @@ Sprites text file and output the pixel at the read\_address of the
 current sprite pertaining to the correct animation of the player. The
 schematic block diagram of this module is shown in the image below.
 
-![](media/image25.png){width="6.4875in" height="2.8777777777777778in"}
+![Alt text](/documentation/images/Picture25.png?raw=true "Optional Title")
 
  Bullet Top Level Module
 ========================
@@ -784,8 +765,7 @@ outputted bulletOn signals to signify to the pixel logic that they
 needed to be drawn. The image below shows the schematic block diagram of
 the bullet top level module.
 
-![](media/image26.png){width="2.115365266841645in"
-height="6.00419072615923in"}
+![Alt text](/documentation/images/Picture26.png?raw=true "Optional Title")
 
 1.  Bullet Module
 
@@ -823,8 +803,7 @@ module to decide if we need to draw the ball. The image below shows the
 schematic block diagram of the bullet module. Due to its complexity, it
 is hard to decipher.
 
-![](media/image27.png){width="6.903472222222222in"
-height="1.9072856517935257in"}
+![Alt text](/documentation/images/Picture27.png?raw=true "Optional Title")
 
  Hex Drivers Module
 ===================
@@ -839,8 +818,7 @@ keyboard driver had been programmed correctly. We also used these
 modules to perform multiple other modular tests. The schematic of the
 hex driver module is shown in the image below.
 
-> ![](media/image28.png){width="2.401952099737533in"
-> height="3.3850885826771653in"}
+![Alt text](/documentation/images/Picture28.png?raw=true "Optional Title")
 
  Simulation Waveforms
 =====================
