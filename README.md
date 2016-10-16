@@ -867,15 +867,22 @@ because of our instances of our player sprite rom and the frame buffer
 ram. We also used our DSP blocks to make multipliers that was used in
 our design.
 
-  Resources            Statistics
+  Resources           | Statistics
   -------------------- ------------
   LUT                  2371
+
   DSP                  40
+
   Memory(BRAM)         2313216
+
   Flip-Flop            486
+
   Frequency (MHz)      96.29
+
   Static Power (mW)    98.90
+
   Dynamic Power (mW)   0.00
+
   Total Power (mW)     188.64
 
  Conclusion
