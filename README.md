@@ -205,30 +205,28 @@ diagrams for the frame counter module.
 Background Image Display
 ========================
 
-The SRAM was used in our design to store the entire background of our
-game. This consisted of a very large image that was 4114 pixels in width
-and 480 pixels in height. This means that there were a total of 1974720
-pixels that we need to account for. This is a clear problem since there
+SRAM servers the purposes of storing the entire background image of the
+game. A minimized version of the first level of contra ends up being an image that
+is 4114 pixels in width and 480 pixels in height. This means that there are a total of 1974720
+pixels that need to accounted for. This is a clear problem since there
 are only 1 million address spaces that can be accounted for in the SRAM.
-While looking for a way to compress our image to fit into this memory
-space, we discovered a very interesting feature of some of these old
-school NES game. Since the NES was not that powerful, the graphics of
-some of these games had to be optimized so that limitations in the NES
-design would not be noticed during run time. One of these optimizations
-was to only store the address of every other pixel in memory. What this
-means is that every pixel would be output to the screen twice. Since the
+An interesting thing about the image of the level is that every other pixel within the image is the same
+and so this leads to a very straight forward compression.
+Since every other pixel is the same, storing one pixel for the two gives an
+optimization of memory usage by a factor of 2.
+This means that that every pixel would be need to be output to the screen twice. Since the
 graphics of the NES are already fairly pixelated, this type of
-optimization would not affect visual experience of the user in anyway.
+optimization does affect visual experience of the user in anyway.
 Based on this, we were able to reduce our total needed memory size to
 exactly 987360 address spaces and thus fit everything on the SRAM. To
-get this image into the SRAM, we used the same method as we did for the
-sprites. We first used the python script to map each pixel value to our
-palette. Then we took the the outputted file and used a C program to
+get this image into the SRAM, the same method is used as is for the
+sprites. First, use the python script to map each pixel value to the
+palette. Then take the output file and used a C program to
 convert this .txt file to a .ram file. The C program used a well known
-function called fwrite() to convert our file to a file that would be
-recognizable by the DE2-115 control panel. Once the image had been
-flashed onto to the DE2-115 board, it was ready to be used by the rest
-of our design.
+function called fwrite() to convert the file to a file that is
+recognizable by the DE2-115 control panel. Once the image has been
+flashed onto to the DE2-115 board, it is ready to be used by the rest
+of the design.
 
 SRAM Controller Module
 ======================
